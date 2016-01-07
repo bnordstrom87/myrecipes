@@ -20,7 +20,13 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
+  gem 'rails_12factors'
 end
+  
+group :development do
+  gem 'web-console', '~> 2.0'
 
+  gem 'spring'
+
+end
 
