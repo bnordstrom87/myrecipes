@@ -18,14 +18,9 @@ group :development, :test do
   gem 'pry'
 end
 
-group :development do
-  gem 'web-console', '~> 2.0'
-
-  gem 'spring'
-
 group :production do
   gem 'pg'
-  gem 'ralls_12factor'
-
+  gem 'rails_12factor'
 end
+
 
